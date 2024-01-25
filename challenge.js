@@ -17,9 +17,13 @@ export function divide(a, b) {
 }
 
 // // these are much much harder - it's a huge stretch goal, don't worry about getting these done.
-// export function isPalindrome(word) {
-//   // implement function
-// }
+export function isPalindrome(word) {
+  for (let i = 0; i <= word.length; i--) {
+    let betterString = str.replace(/[\W]/g, "").toLowerCase();
+    let reversedString = betterString.split().reverse().join();
+    return (betterString = reversedString);
+  }
+}
 
 // export function isAnagram() {
 //   // implement function
